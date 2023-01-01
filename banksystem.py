@@ -13,8 +13,8 @@ class User:
 
 class Bank(User):
     def __init__(self,name,age,gender):
-        super().__init__(name,age,gender):
-            self.balance = 0
+        super().__init__(name,age,gender)
+        self.balance = 0
 
     def deposit(self, amount):
         self.amount = amount
